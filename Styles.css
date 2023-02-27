@@ -1,9 +1,30 @@
-styles.css
 h1{
     color: #D91512;
 }
-
+h2{
+    color: #00e8f0;
+}
+h3{
+    color: #12d933;
+}
+h4{
+    color: #121fd9;
+}
+h5{
+    color: #d212d9;
+}
+h6{
+    color: #d9cc12;
+}
 button {
     color: #fff;
     background-color: #025157;
+}
+publish h3.{
+    color:#ff0eb7
+}
+video.{
+    display: flex;
+    width: 75%;
+    margin left: 50% ;
 }
