@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--saber con cuales paginas son compatibles-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="Styles.css"><!--llamar nuestra hojas de estilos-->
 </head>
 <body>
-    <section class="fixed-header"><!--barra de navegacion-->
-    <header class="header">
+    <nav class="navbar navbar-expand-sm bg-warning navbar-warning nav justify-content-center"><!--barra de navegacion-->
+    <div class="container-fluid">
+        <header class="header">
         <!-- Logo con link a la página principal -->
-        <a>
+        <a class="navbar-brand" href="#">
           <img class="logo" src="img/unnamed.jpg" width="30px" height="30px"/>
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <!-- Menú de navegación -->
-        <nav class="navbar">
-            <ul><!--lista ordenada-->
-              <li> Platform </li>
-              <li>Pricing</li> 
-              <li>Resources</li> 
-              <li>About</li>   
+        <div class="navbar">
+            <ul class="navbar-nav"><!--lista ordenada-->
+              <li class="nav-item">
+              <a class="nav-link" href="index.html">  Plataform </a>  </li>
+              <li class="nav-item">Pricing</li> 
+              <li class="nav-item">Resources</li> 
+              <li class="nav-item">About</li>   
             </ul>
-        </nav>
+        </div>
+        </div>
         <!-- Contenedor de acciones de usuario -->
         <div class="actions">
             <a>Sign In</a>
-            <button>comienzo</button>
+            <button type="button" class="btn btn-primary">comienzo</button>
       </div>
       </header>
-    </section>
+    </nav>
 
     <h1> Mi Primer Pagina Este Semestre </h1>
     <h2>Heading level 2</h2>
@@ -42,6 +51,9 @@
     <p>Este es un parrafo</p>
     <p>Este es un parrafo</p>
     <p>Este es un parrafo</p>
+
+    <input type="text" id="name" name="fname" placeholder="email"><br><br>
+
     <form>
         <label for="name">Nombre</label>
         <input type="text" id="name" name="fname" placeholder="Nombre"><br><br>
@@ -90,6 +102,9 @@
             </p>
             <a href="">Publica instantaneamente</a>
         </div>
+        <div class="feature-image">
+            <figure>
+                <img src="img/link.jpg" alt="">
             </figure>
         </div>
         </article>
