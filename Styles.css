@@ -1,18 +1,19 @@
 /*con punto se llama a la clase y sin punto seria la etiqueta en general*/
-.header{
+/*.header{
     margin-top: 1px;/*son los margenes de arriba*/
-    margin-left: 100px;/*son los margenes de derecha*/
-    margin-right: 20px;/*son los margenes de izquierda*/
-    font-size: 0; /* tamaño de la fuente */
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /*  margin-left: 100px;/*son los margenes de derecha*/
+    /*margin-right: 20px;/*son los margenes de izquierda*/
+   /* font-size: 0; /* tamaño de la fuente */
+   /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/*
 .header > * {/*con un asterisco llama a todos los elementos de la clase*/
-    display: inline-block; /*muestra los elementos en manera horizontal*/
-    font-size: 16px;/*tamaño de la fuente*/
-    height: 100%;/*altura que va a tener el bloque*/
-    vertical-align: middle;/*alinear a la mitad*/
-    line-height: 45px;/*margen*/
-}
+ /*   display: inline-block; /*muestra los elementos en manera horizontal*/
+   /* font-size: 16px;/*tamaño de la fuente*/
+    /*height: 100%;/*altura que va a tener el bloque*/
+    /*vertical-align: middle;/*alinear a la mitad*/
+    /*line-height: 45px;/*margen*/
+/*}*/
 li{ /*se llama a la etiqueta para mostrar a uno del lado del otro*/
     display: inline;
 }
@@ -21,7 +22,7 @@ li{ /*se llama a la etiqueta para mostrar a uno del lado del otro*/
 }
 .navbar{
     text-align: left;
-    color: #025157;
+    color: #000000;
     font-weight: 500;
 }
 .actions{
@@ -73,7 +74,7 @@ button {
 }
 
 .features{
-    background-color: #037a83;
+    background-color: #050383;
     display: grid;
     padding: 5% 10%;
     grid-template-columns: repeat(2, 550px); /* se agregan 2 columnas de 300px*/

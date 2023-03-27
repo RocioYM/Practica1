@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reources</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    <script src="js/bootstrap.bundle.min.js"></script>  
+    <script>
+        function hola() {
+            document.getElementById("nombre").style.backgroundColor="blue";
+            document.getElementById("nombre").style.color="white";
+            document.getElementById("nombre").style.fontSize="30px";
+        }
+    </script>
+    <script>
+    function cimagen(imagen) {
+        document.getElementById(imagen).src="img/calavera.jpg";
+        
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top"
+        style="background-color: rgb(255, 199, 17) !important;"><!--barra de navegacion-->
+        <header class="container-fluid">
+            <!-- Logo con link a la página principal -->
+            <a class="navbar-brand">
+              <img class="logo" src="img/unnamed.jpg" width="400px" height="400px"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar"></div>
+                <ul class="navbar-nav"><!--lista ordenada-->
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">  Plataform </a>  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href=""></a>Pricing</li> 
+                
+                  <li class="nav-item">
+                    <a class= "nav-link" href="Resources.html"></a>Resources</li> 
+                
+                  <li class="nav-item">About</li>   
+                
+                </ul>
+            <!-- Contenedor de acciones de usuario -->
+            <div class="actions">
+                <a>Sign In</a>
+                <button type="button" class="btn btn-primary">comienzo</button>
+          </div>
+          </header>
+        </nav>
+        <div>
+            <p id="nombre">hola mucho gusto adios</p>
+            <button type="button" onclick="hola()"> Click aqui </button>
+            <br>
+            <button type="button" onclick="alert('no funciona')">No Click</button>
+        </div>
+        <div id="imagen">
+            <img id="img1" src="img/Rosas negras.jpg" alt="" width="200" height="200" onmouseover="cimagen('img1')" onmouseout="this.src='img/Rosas negras.jpg'"></src>
+            <img id="img2" src="img/Rosas azules.jpg" alt="" width="200" height="200" onmouseover="cimagen('img2')" onmouseout="this.src='img/Rosas azules.jpg'"></src>
+            <img id="img3" src="img/Rosas negras.jpg" alt="" width="200" height="200" onmouseover="cimagen('img3')" onmouseout="this.src='img/Rosas negras.jpg'"></src>
+        </div>
+</body>
+</html>
